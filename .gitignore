@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+# data & secrets
+backend/data/
+backend/.env
+# build
+frontend/dist/
+# logs
+*.log
+.DS_Store
+Thumbs.db

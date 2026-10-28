@@ -1,0 +1,12 @@
+{
+  "name": "MedConnect",
+  "short_name": "MedConnect",
+  "description": "Plataforma de saúde: encontre especialistas e agende consultas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    { "src": "/vite.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

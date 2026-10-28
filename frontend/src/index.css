@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --brand-50: #eff6ff;
+  --brand-100: #dbeafe;
+  --brand-200: #bfdbfe;
+  --brand-300: #93c5fd;
+  --brand-400: #60a5fa;
+  --brand-500: #3b82f6;
+  --brand-600: #2563eb;
+  --brand-700: #1d4ed8;
+  --brand-800: #1e40af;
+  --brand-900: #1e3a8a;
+  --accent: #10b981;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+
+.glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(12px); }
+
+.dark body { background: #0b1220; color: #e6edf7; }
+
+@keyframes fade-in { from { opacity:0; transform: translateY(8px);} to { opacity:1; transform:none;} }
+.animate-fade-in { animation: fade-in .35s ease-out; }
+
+@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+.skeleton { background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
